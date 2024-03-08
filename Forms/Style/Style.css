@@ -1,0 +1,29 @@
+.Forms-content{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    margin: 10px;
+}
+#Button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+input{
+    border: black solid 2px;
+}
+.Forms-content input[type="button"]{
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
