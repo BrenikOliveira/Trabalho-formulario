@@ -7,9 +7,11 @@
     <title>Document</title>
 </head>
 <body>
+    
     <form method="POST" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
         <div class="Forms-content">
-            <fieldset>                
+            <fieldset> 
+                     <legend>Formulário</legend>          
                 <div class="Cadastro">
                 <div id="Nome">
                         <label for="">Digite Seu Nome:</label>
@@ -43,13 +45,11 @@
                 <div class="Documento">       
                     <div>
                     <label for="">Carregue Sua Documentação: </label>
-                    <input type="file" id="Documentos" name="Documentos">
+                    <input type="file" id="Documentos" required name="Documentos">
                     </div>        
+                    <input type="Submit"></input>
                 </div>
             </fieldset>
-        </div>
-        <div id="Button">
-            <input type="Submit"></input>
         </div>
     </form>
     <?php

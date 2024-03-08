@@ -3,18 +3,22 @@
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
 }
-div{
-    margin: 10px;
-}
 #Button{
     display: flex;
     justify-content: center;
     width: 100%;
 }
-input{
-    border: black solid 2px;
+.Documento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.Forms-content input[type="button"]{
+.Forms-content label,input{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.Documento input[type="Submit"]{
     padding: 10px;
     background-color: #007bff;
     border: none;
@@ -23,7 +27,7 @@ input{
     font-size: 16px;
     cursor: pointer;
 }
-button:hover{
+.Documento:hover input[type="Submit"]{
     background-color: white;
     color: black;
 }
